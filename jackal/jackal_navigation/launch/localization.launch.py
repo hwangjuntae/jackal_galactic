@@ -66,9 +66,9 @@ def generate_launch_description():
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
         default_value=PathJoinSubstitution(
-            [pkg_hunav_sim,
+            [pkg_jackal_navigation,
             'maps',
-            'khu_5th_floor.yaml']),
+            'hri_lab.yaml']),
         description='Full path to map yaml file to load')
 
     declare_use_sim_time_cmd = DeclareLaunchArgument(
