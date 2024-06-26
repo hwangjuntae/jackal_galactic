@@ -26,7 +26,6 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
     pkg_nav2_bringup = FindPackageShare('nav2_bringup')
     pkg_jackal_navigation = FindPackageShare('jackal_navigation')
-    pkg_hunav_sim = FindPackageShare("hunav_rviz2_panel") # add
 
     namespace = LaunchConfiguration('namespace')
     map_yaml_file = LaunchConfiguration('map')

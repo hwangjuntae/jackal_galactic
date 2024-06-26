@@ -39,7 +39,7 @@ amcl:
     z_short: 0.05
     scan_topic: scan #default scan /scan 바꿔도 똑같음
     # map_topic: map
-    set_initial_pose: False # 이걸 true로 해두면 초기 포즈를 아예잡아버림
+    set_initial_pose: true # 이걸 true로 해두면 초기 포즈를 아예잡아버림
     # always_reset_initial_pose: false
     # first_map_only: false
 
